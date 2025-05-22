@@ -1,138 +1,88 @@
-1. Introduction
-This report provides an analysis of global logistics dataset (with 16K orders and $3.12M sales, orders between 2015-2018) to identify operational inefficiencies and market opportunities. With the help of Power BI, we have evaluated delivery timeliness (57.73% delayed orders), regulatory fines (peaking in the U.S. and Mexico), and the regional profitability (Europe: $179.89/customer). Using PESTEL framework we targeted strategies, such as AI-driven route optimization and compliance teams in high-risk regions.
+📦 Global Logistics Data Analysis (2015–2018)
+This Power BI-driven project analyzes a global logistics dataset containing 16K orders and $3.12M in sales between 2015 and 2018. The goal is to uncover operational inefficiencies, regional trends, and strategic opportunities using both descriptive analytics and the PESTEL framework.
 
+📈 Project Highlights
+Total Orders: 16,000
 
-2. Dashboard Components
-A. Overview
-•	Total Orders: 16K
-•	Total Sales: $3.12M
-•	Average Profit per Order: $22.60
-•	Average Sales per Customer: $179.89
-Visual 1: Total Orders by Month
- 
-Figure 1: A bar chart of monthly orders can help visualize these fluctuations clearly.
-Here, we can see there is seasonality trend, where July’s 22% surge in sales is due to summer demand and the December decline points signifies holiday shutdowns.
-Visual 2: Global Order Distribution
-Orders are widespread, with dense activity in Europe, North America, and parts of Asia.
- 
-Figure 2: A map view displays geographical order distribution effectively.
+Total Sales: $3.12M
 
-Visual 3: Delivery Timeliness
-•	Early Arrival Orders: 22.80%
-•	On-Time Delivery: 19.47%
-•	Delayed Orders: 57.73%
-Delayed deliveries are a major operational concern.
- 
-Figure 3: A delivery performance chart illustrates the critical imbalance in timeliness.
-B. Political Factors
-Visual 4: Regulatory Fines by Country
-Nearly 40% of total fines ($388.65M) are imposed by US and Mexico due to custom delays.
- 
-Figure 4: A bar chart of regulatory fines by country to clearly visualize the geographic distribution of fines and highlight high-risk regions.
+Average Profit/Order: $22.60
 
-Visual 5: Government Stability Map
-Several African and Asian countries show low stability, increasing political risk for operations in these regions.
- 
-Visual 6: Trade Regulation vs Profit per Order
-Markets with low trade regulation impact have higher profit per order, suggesting lower barriers improve margins.
- 
+Avg. Sales/Customer (Europe): $179.89
 
-Visual 7: Delivery % by Trade Regulations
-High regulation areas face higher delayed orders and lower on-time delivery, confirming regulatory inefficiencies.
- 
-________________________________________
+Delayed Deliveries: 57.73%
 
+📊 Dashboard Components
+A. Operational Overview
+Monthly Orders: Seasonal spikes in July (+22%) due to summer demand; drops in December due to holiday shutdowns.
 
+Geographic Distribution: Orders concentrated in Europe, North America, and Asia.
 
+Delivery Timeliness:
 
+Early: 22.80%
 
+On-Time: 19.47%
 
+Delayed: 57.73%
 
+B. Political Analysis
+Regulatory Fines: 40% from U.S. and Mexico due to customs delays.
 
-C. Economic Factors
-Visual 8: Average Inflation Rate by Year
- 
-Figure: The line chart showing average inflation rate by year to visually communicate the economic trend over time.
-Inflation peaked in 2016 (5.53%) and declined by 2018, potentially reducing input costs.
+Government Stability Map: Highlights political risk in parts of Africa and Asia.
 
-Visual 8: Currency Exchange Rate vs Profit per Order
+Trade Regulation Impact:
 
- 
+Low-regulation regions → Higher profit per order
 
-A moderate positive trend shows higher exchange rates slightly increase profits.
+High-regulation → More delays
 
-Visual 9: Exchange Rate Bucket Analysis
+C. Economic Analysis
+Inflation: Peaked in 2016 (5.53%), lowered by 2018.
 
- 
+Currency Exchange Impact:
 
-High exchange rate zones (1.35+) yields 18% higher profit margins which suggest forex hedging strategies.
+Higher rates correlate with slight profit increases
+
+1.35+ exchange zones yield 18% higher margins
 
 D. Social Factors
-Visual 10: Average sales per Customer by Market
- 
-A bar chart of average sales per customer by market highlight regional variations in purchasing behavior and support social segmentation analysis. Europe has the highest sales per customer; Africa has the lowest, highlighting spending power gaps.
+Sales per Customer:
 
-Visual 11: Urbanization Level by Segment
+Europe highest
 
- 
-Urbanization is consistent (~72%) across segments (Consumer, Corporate, Home Office), supporting digital reach.
-Visual 12: Consumer Preference Shift
+Africa lowest
 
- 
-All three trends (rising, declining, stable) contribute ~5.2K orders each, indicating market dynamism.
+Urbanization: Consistent (~72%) across segments
+
+Consumer Preferences: Stable/rising/declining preferences all contribute ~5.2K orders → dynamic demand
 
 E. Technological Factors
-Visual 13: AI & Automation Adoption vs Quantity Ordered
- 
-A bar chart comparing AI & Automation adoption levels (Low, Medium, High) with total order quantity to clarify the minimal impact of technology adoption. AI adoption (Low, Medium, High) has minimal impact on total quantity ordered, suggesting low ROI from current implementations.
+AI/Automation: Limited impact on order quantity so far
 
-Visual 14: Internet Penetration by Shipping Mode
-High and consistent penetration (~75%) across all modes supports online logistics and order tracking.
- 
-F. Environmental Factors
-Visual 15: Carbon Footprint Score vs Profit
- 
-No clear relationship between carbon footprint and profitability; average footprint score is 110.38.
+Internet Penetration: ~75% across shipping modes → supports digital tracking
 
-Visual 16: Eco-Friendly Packaging Compliance
+F. Environmental Insights
+Carbon Footprint: Avg. score = 110.38; no clear link to profit
 
- 
-Compliance is split 50/50 between compliant and non-compliant segments, showing room for ESG improvement.
-G. Legal Factors
-Visual 17: Average Regulatory Fines by Country (Extended List)
- 
-Several smaller nations contribute to a large portion of the $388.65M in fines, demanding legal oversight.
+Eco-Friendly Packaging: 50% compliance → room for ESG improvement
 
-Visual 18: Labor Law Compliance vs Total Profit
- 
+G. Legal Considerations
+Fine Distribution: Several small countries contribute to regulatory fines ($388.65M total)
 
-High compliance yields the highest profit ($346.33K total), showing ethical practices support financial gains.
+Labor Law Compliance: High compliance leads to highest total profit ($346.33K)
 
-Strategic Recommendations
-1.	Delivery Optimization: Company(s) should partner with local carriers in African countries (57% delays) using geospatial data to reduce transit time by 20%.
+📌 Strategic Recommendations
+Optimize Delivery in Africa: Partner with local carriers to reduce 57% delays by 20% using geospatial data.
 
-2.	Regulatory Compliance: Allocate $200K/year for legal teams in Mexico (Visual 4), projected to cut fines by 30% in 12 months.
+Regulatory Compliance (Mexico): Allocate $200K/year to legal teams → projected 30% fine reduction in 12 months.
 
+Boost AI ROI: Pilot automation in corporate segments with predictive inventory tools (Visual 14).
 
-3.	AI ROI Improvement: Pilot automation in corporate segment (Visual 14 shows 12% higher adoption but no sales lift; test predictive inventory tools).
+Sustainability Push: Improve eco-packaging and reduce carbon impact for long-term ESG performance.
 
-4.	Promote Sustainability: Increase eco-friendly packaging and reduce carbon footprint.
-
-
-Conclusion
-Finally, we can conclude that this logistics data analysis helps us underscore urgent gaps such as delivery delays cost $1.2M/year in lost repeat business, while Europe’s high spending ($179.89/customer) justifies premium service tiers. By prioritizing geospatial fixes (Mexican compliance, African business partnerships, etc.) over blanket AI investments will result in measurable ROI. Further analysis can be done by correlating urbanization with digital adoption rates.
-________________________________________
-References
-1.	World Trade Organization. (n.d.). Trade policies & tariffs impact on logistics operations. Retrieved from https://www.wto.org
-2.	Organisation for Economic Co-operation and Development (OECD). (2025). Inflation impact on transportation & logistics industry. Retrieved from https://www.oecd.org
-3.	United Nations. (2025). World urbanization prospects: Implications for transportation & infrastructure. Retrieved from https://population.un.org/wup/
-4.	McKinsey & Company. (2024). The rise of AI & automation in supply chain management. Retrieved from https://www.mckinsey.com/industries/travel-logistics-and-infrastructure/our-insights
-5.	World Customs Organization. (2024). Trade regulations & compliance: Effects on cross-border logistics. Retrieved from http://www.wcoomd.org
-
-Data Source Citation:
-Kamboj, P. (n.d.). Logistics Data Containing Real World Data. Kaggle.
-Retrieved from https://www.kaggle.com/datasets/pushpitkamboj/logistics-data-containing-real-world-data
-
+🧠 Conclusion
+This project reveals how logistics inefficiencies, like delivery delays, result in ~$1.2M/year lost in repeat business. Europe’s high purchasing power supports premium tiers, while data-driven targeting (e.g., local partnerships in Africa, compliance investment in Mexico) offers measurable ROI over generic tech adoption.
 
 
 
